@@ -62,6 +62,7 @@ export default {
         "bright-blue": "hsl(var(--bright-blue))",
         "bold-orange": "hsl(var(--bold-orange))",
         "soft-orange": "hsl(var(--soft-orange))",
+        "fresh-green": "hsl(var(--fresh-green))",
         "dark-navy": "hsl(var(--dark-navy))",
       },
       borderRadius: {
