@@ -2,7 +2,7 @@ import { ReactNode, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Home, Users, BookOpen, Briefcase, Settings, LogOut, BarChart3, FileText, Award, FolderHeart } from "lucide-react";
-import ebpLogo from "@/assets/ebp-logo.png";
+import kwetuLogo from "@/assets/kwetu-hub-logo.png";
 import { useAuth } from "@/hooks/useAuth";
 
 interface DashboardLayoutProps {
@@ -59,8 +59,8 @@ const DashboardLayout = ({ children, userType }: DashboardLayoutProps) => {
       <aside className="w-64 bg-sidebar border-r border-sidebar-border flex flex-col">
         <div className="p-6 border-b border-sidebar-border">
           <Link to="/" className="flex items-center gap-3">
-            <img src={ebpLogo} alt="EBP Logo" className="h-10 w-auto" />
-            <span className="text-lg font-bold text-sidebar-foreground">Youth Connect</span>
+            <img src={kwetuLogo} alt="Kwetu Hub Logo" className="h-10 w-auto" />
+            <span className="text-lg font-bold text-sidebar-foreground">Kwetu Hub</span>
           </Link>
         </div>
         

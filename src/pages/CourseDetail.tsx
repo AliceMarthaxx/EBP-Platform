@@ -269,7 +269,7 @@ const CourseDetail = () => {
                       Enroll Now
                     </Button>
                     <p className="text-sm text-center text-muted-foreground">
-                      Free for all Youth Connect members
+                      Free for all Kwetu Hub members
                     </p>
                   </>
                 ) : (

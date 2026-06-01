@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-import ebpLogo from "@/assets/ebp-logo.png";
+import kwetuLogo from "@/assets/kwetu-hub-logo.png";
 
 const PrivacyPolicy = () => {
   return (
@@ -10,8 +10,8 @@ const PrivacyPolicy = () => {
       <nav className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3">
-            <img src={ebpLogo} alt="EBP Logo" className="h-12 w-auto" />
-            <span className="text-xl font-bold text-primary">Youth Connect</span>
+            <img src={kwetuLogo} alt="Kwetu Hub Logo" className="h-12 w-auto" />
+            <span className="text-xl font-bold text-primary">Kwetu Hub</span>
           </Link>
           <Link to="/">
             <Button variant="ghost">
@@ -31,7 +31,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-2xl font-bold text-card-foreground mb-4">1. Introduction</h2>
             <p className="text-muted-foreground">
-              Welcome to Youth Connect, operated by EBP Platform. We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our platform.
+              Welcome to Kwetu Hub, operated by Kwetu Hub. We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our platform.
             </p>
           </section>
 
@@ -128,7 +128,7 @@ const PrivacyPolicy = () => {
               If you have questions about this Privacy Policy, please contact us at:
             </p>
             <p className="text-primary font-semibold mt-2">
-              Email: <a href="mailto:privacy@ebpplatform.org" className="hover:underline">privacy@ebpplatform.org</a>
+              Email: <a href="mailto:privacy@kwetuhub.org" className="hover:underline">privacy@kwetuhub.org</a>
             </p>
           </section>
         </div>

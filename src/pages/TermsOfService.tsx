@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-import ebpLogo from "@/assets/ebp-logo.png";
+import kwetuLogo from "@/assets/kwetu-hub-logo.png";
 
 const TermsOfService = () => {
   return (
@@ -10,8 +10,8 @@ const TermsOfService = () => {
       <nav className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3">
-            <img src={ebpLogo} alt="EBP Logo" className="h-12 w-auto" />
-            <span className="text-xl font-bold text-primary">Youth Connect</span>
+            <img src={kwetuLogo} alt="Kwetu Hub Logo" className="h-12 w-auto" />
+            <span className="text-xl font-bold text-primary">Kwetu Hub</span>
           </Link>
           <Link to="/">
             <Button variant="ghost">
@@ -31,14 +31,14 @@ const TermsOfService = () => {
           <section>
             <h2 className="text-2xl font-bold text-card-foreground mb-4">1. Agreement to Terms</h2>
             <p className="text-muted-foreground">
-              By accessing or using Youth Connect, operated by EBP Platform, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our platform.
+              By accessing or using Kwetu Hub, operated by Kwetu Hub, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our platform.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-card-foreground mb-4">2. Eligibility</h2>
             <p className="text-muted-foreground">
-              You must be at least 16 years old to use this platform. By using Youth Connect, you represent and warrant that you meet this age requirement and have the legal capacity to enter into these terms.
+              You must be at least 16 years old to use this platform. By using Kwetu Hub, you represent and warrant that you meet this age requirement and have the legal capacity to enter into these terms.
             </p>
           </section>
 
@@ -59,7 +59,7 @@ const TermsOfService = () => {
           <section>
             <h2 className="text-2xl font-bold text-card-foreground mb-4">4. Platform Usage</h2>
             <p className="text-muted-foreground mb-4">
-              You agree to use Youth Connect only for lawful purposes. You may not:
+              You agree to use Kwetu Hub only for lawful purposes. You may not:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
               <li>Violate any applicable laws or regulations</li>
@@ -75,7 +75,7 @@ const TermsOfService = () => {
           <section>
             <h2 className="text-2xl font-bold text-card-foreground mb-4">5. Content and Intellectual Property</h2>
             <p className="text-muted-foreground mb-4">
-              The platform and its content are owned by EBP Platform and protected by intellectual property laws. You are granted a limited license to access and use the platform for its intended purpose.
+              The platform and its content are owned by Kwetu Hub and protected by intellectual property laws. You are granted a limited license to access and use the platform for its intended purpose.
             </p>
             <p className="text-muted-foreground">
               Content you submit to the platform remains your property, but you grant us a license to use, display, and share it as necessary to provide our services.
@@ -109,14 +109,14 @@ const TermsOfService = () => {
           <section>
             <h2 className="text-2xl font-bold text-card-foreground mb-4">7. Third-Party Services</h2>
             <p className="text-muted-foreground">
-              Youth Connect may contain links to third-party websites or integrate with third-party services. We are not responsible for the content, privacy practices, or terms of these third parties.
+              Kwetu Hub may contain links to third-party websites or integrate with third-party services. We are not responsible for the content, privacy practices, or terms of these third parties.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-card-foreground mb-4">8. Disclaimers</h2>
             <p className="text-muted-foreground mb-4">
-              Youth Connect is provided "as is" without warranties of any kind. We do not guarantee:
+              Kwetu Hub is provided "as is" without warranties of any kind. We do not guarantee:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
               <li>The accuracy or completeness of content on the platform</li>
@@ -129,7 +129,7 @@ const TermsOfService = () => {
           <section>
             <h2 className="text-2xl font-bold text-card-foreground mb-4">9. Limitation of Liability</h2>
             <p className="text-muted-foreground">
-              To the maximum extent permitted by law, EBP Platform shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the platform.
+              To the maximum extent permitted by law, Kwetu Hub shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the platform.
             </p>
           </section>
 
@@ -160,7 +160,7 @@ const TermsOfService = () => {
               For questions about these Terms of Service, contact us at:
             </p>
             <p className="text-primary font-semibold mt-2">
-              Email: <a href="mailto:legal@ebpplatform.org" className="hover:underline">legal@ebpplatform.org</a>
+              Email: <a href="mailto:legal@kwetuhub.org" className="hover:underline">legal@kwetuhub.org</a>
             </p>
           </section>
         </div>

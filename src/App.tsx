@@ -31,7 +31,7 @@ const queryClient = new QueryClient();
 const App = () => {
   // ✅ useEffect must be inside the component
   useEffect(() => {
-    document.title = "EBP Platform";
+    document.title = "Kwetu Hub";
   }, []);
 
   return (

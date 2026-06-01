@@ -27,7 +27,7 @@ export const useAuth = () => {
     setIsAuthenticated(true);
     toast({
       title: "Signed in successfully!",
-      description: "Welcome back to Youth Connect.",
+      description: "Welcome back to Kwetu Hub.",
     });
     return true;
   };
@@ -38,7 +38,7 @@ export const useAuth = () => {
     setIsAuthenticated(true);
     toast({
       title: "Account created!",
-      description: "Welcome to Youth Connect.",
+      description: "Welcome to Kwetu Hub.",
     });
     return true;
   };
