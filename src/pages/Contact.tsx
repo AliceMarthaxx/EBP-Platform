@@ -40,8 +40,8 @@ const Contact = () => {
             <p className="text-muted-foreground mb-4">
               Send us an email and we'll get back to you within 24 hours.
             </p>
-            <a href="mailto:info@ebpplatform.org" className="text-primary hover:underline font-semibold">
-              info@ebpplatform.org
+            <a href="mailto:info@kwetuhub.org" className="text-primary hover:underline font-semibold">
+              info@kwetuhub.org
             </a>
           </div>
 

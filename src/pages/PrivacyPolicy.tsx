@@ -128,7 +128,7 @@ const PrivacyPolicy = () => {
               If you have questions about this Privacy Policy, please contact us at:
             </p>
             <p className="text-primary font-semibold mt-2">
-              Email: <a href="mailto:privacy@ebpplatform.org" className="hover:underline">privacy@ebpplatform.org</a>
+              Email: <a href="mailto:privacy@kwetuhub.org" className="hover:underline">privacy@kwetuhub.org</a>
             </p>
           </section>
         </div>

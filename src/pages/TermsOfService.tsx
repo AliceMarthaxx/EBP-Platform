@@ -160,7 +160,7 @@ const TermsOfService = () => {
               For questions about these Terms of Service, contact us at:
             </p>
             <p className="text-primary font-semibold mt-2">
-              Email: <a href="mailto:legal@ebpplatform.org" className="hover:underline">legal@ebpplatform.org</a>
+              Email: <a href="mailto:legal@kwetuhub.org" className="hover:underline">legal@kwetuhub.org</a>
             </p>
           </section>
         </div>
