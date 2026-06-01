@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowLeft, Chrome } from "lucide-react";
-import ebpLogo from "@/assets/ebp-logo.png";
+import kwetuLogo from "@/assets/kwetu-hub-logo.png";
 import { useToast } from "@/hooks/use-toast";
 
 const Auth = () => {
@@ -28,7 +28,7 @@ const Auth = () => {
       setIsLoading(false);
       toast({
         title: "Signed in successfully!",
-        description: "Welcome back to Youth Connect.",
+        description: "Welcome back to Kwetu Hub.",
       });
       navigate("/dashboard/user");
     }, 1000);
@@ -49,7 +49,7 @@ const Auth = () => {
       setIsLoading(false);
       toast({
         title: "Account created!",
-        description: "Welcome to Youth Connect.",
+        description: "Welcome to Kwetu Hub.",
       });
       // Navigate based on role
       if (role === "provider") {
@@ -84,9 +84,9 @@ const Auth = () => {
         <Card className="shadow-2xl">
           <CardHeader className="text-center">
             <div className="flex justify-center mb-4">
-              <img src={ebpLogo} alt="EBP Logo" className="h-16 w-auto" />
+              <img src={kwetuLogo} alt="Kwetu Hub Logo" className="h-16 w-auto" />
             </div>
-            <CardTitle className="text-2xl">Welcome to Youth Connect</CardTitle>
+            <CardTitle className="text-2xl">Welcome to Kwetu Hub</CardTitle>
             <CardDescription>Sign in or create an account to get started</CardDescription>
           </CardHeader>
           <CardContent>

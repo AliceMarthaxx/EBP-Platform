@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, ArrowLeft } from "lucide-react";
-import ebpLogo from "@/assets/ebp-logo.png";
+import kwetuLogo from "@/assets/kwetu-hub-logo.png";
 
 const Contact = () => {
   return (
@@ -10,8 +10,8 @@ const Contact = () => {
       <nav className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3">
-            <img src={ebpLogo} alt="EBP Logo" className="h-12 w-auto" />
-            <span className="text-xl font-bold text-primary">Youth Connect</span>
+            <img src={kwetuLogo} alt="Kwetu Hub Logo" className="h-12 w-auto" />
+            <span className="text-xl font-bold text-primary">Kwetu Hub</span>
           </Link>
           <Link to="/">
             <Button variant="ghost">
@@ -67,7 +67,7 @@ const Contact = () => {
               Come visit our office during business hours.
             </p>
             <p className="text-card-foreground font-semibold">
-              EBP Platform Headquarters<br />
+              Kwetu Hub Headquarters<br />
               Nairobi, Kenya
             </p>
           </div>

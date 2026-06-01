@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight, Users, BookOpen, Briefcase, Target, ChevronLeft, ChevronRight } from "lucide-react";
-import ebpLogo from "@/assets/ebp-logo.png";
+import kwetuLogo from "@/assets/kwetu-hub-logo.png";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { useCallback, useEffect, useState } from "react";
@@ -50,8 +50,8 @@ const Index = () => {
       <nav className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src={ebpLogo} alt="EBP Logo" className="h-12 w-auto" />
-            <span className="text-xl font-bold text-primary">Youth Connect</span>
+            <img src={kwetuLogo} alt="Kwetu Hub Logo" className="h-12 w-auto" />
+            <span className="text-xl font-bold text-primary">Kwetu Hub</span>
           </div>
           <div className="flex items-center gap-4">
             <Link to="/auth">
@@ -95,7 +95,7 @@ const Index = () => {
                     </div>
                     <div className="hidden md:block relative">
                       <div className="absolute inset-0 bg-gradient-to-br from-white/30 via-bold-orange/20 to-white/30 rounded-full blur-3xl scale-110"></div>
-                      <img src={ebpLogo} alt="EBP" className="relative w-full max-w-md mx-auto drop-shadow-2xl filter brightness-110" />
+                      <img src={kwetuLogo} alt="Kwetu Hub" className="relative w-full max-w-md mx-auto drop-shadow-2xl filter brightness-110" />
                     </div>
                   </div>
                 </div>
@@ -170,10 +170,10 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-primary mb-6">About Youth Connect</h2>
+              <h2 className="text-4xl font-bold text-primary mb-6">About Kwetu Hub</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p className="text-lg">
-                  Youth Connect is a comprehensive platform designed to bridge the gap between young aspiring entrepreneurs and the opportunities they need to succeed.
+                  Kwetu Hub is a comprehensive platform designed to bridge the gap between young aspiring entrepreneurs and the opportunities they need to succeed.
                 </p>
                 <p className="text-lg">
                   Whether you're a campus student or someone without formal education, we believe everyone deserves access to quality mentorship, training, and career opportunities.
@@ -223,7 +223,7 @@ const Index = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-primary mb-4">Explore the Dashboards</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Choose your role to see what Youth Connect can do for you
+              Choose your role to see what Kwetu Hub can do for you
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -296,8 +296,8 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <img src={ebpLogo} alt="EBP Logo" className="h-10 w-auto" />
-                <span className="font-bold">Youth Connect</span>
+                <img src={kwetuLogo} alt="Kwetu Hub Logo" className="h-10 w-auto" />
+                <span className="font-bold">Kwetu Hub</span>
               </div>
               <p className="text-white/70">
                 Empowering youth through opportunity and connection.
@@ -328,7 +328,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-white/20 mt-8 pt-8 text-center text-white/70">
-            <p>&copy; 2025 EBP PLATFORM. All rights reserved.</p>
+            <p>&copy; 2025 KWETU HUB. All rights reserved.</p>
           </div>
         </div>
       </footer>
